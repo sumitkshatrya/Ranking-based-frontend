@@ -43,7 +43,7 @@ const UserSection = ({ users = [], onClaimPoints, onAddUser }) => {
         <select 
           value={selectedUserId}
           onChange={(e) => setSelectedUserId(e.target.value)}
-          className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+          className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-gray-800"
           disabled={users.length === 0}
         >
           <option value="">-- Select a user --</option>
